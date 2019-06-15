@@ -1,0 +1,20 @@
+<% if @header_class != '' %>
+    <header id="header" class="alt">
+<% else %>
+    <header id="header">
+<% end %>
+    <nav id="nav">
+        <ul>
+            <li><%= link_to 'Home', root_path%></li>
+            <li>
+                <a href="#" class="icon fa-angle-down">Questions?</a>
+                <ul>
+                    <li><%= link_to 'About', home_about_path%></li>
+                    <li><%= link_to 'Contact', home_contact_path%></li>
+                </ul>
+            </li>
+            <li><%= link_to 'Sign Up', home_signup_path%></li>
+            <li><%= link_to 'Login', home_login_path%></li>
+        </ul>
+    </nav>
+</header>

@@ -1,0 +1,16 @@
+
+<% if @header_class != '' %>
+    <header id="header" class="alt">
+<% else %>
+    <header id="header">
+<% end %>
+    <nav id="nav">
+        <ul>
+            <li><%= link_to 'Shops', dashboard_shops_path%></li>
+            <li><%= link_to 'Counter', dashboard_counter_path%></li>
+            <li><%= link_to 'Rewards', dashboard_rewards_path%></li>
+            <li><%= link_to 'Customers', dashboard_customer_path%></li>
+            <li><%= link_to 'Settings', dashboard_settings_path%></li>
+            <li><%= link_to 'Logout', root_path%></li>
+    </nav>
+</header>
