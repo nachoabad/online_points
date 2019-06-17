@@ -13,8 +13,5 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
+//= require jquery.min
 //= require_tree .
-//= back-bootstrap
-//= back-jquery
-//= back-material
-//= back-popper
