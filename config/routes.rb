@@ -9,6 +9,6 @@ Rails.application.routes.draw do
   get 'dashboard/shops'
   get 'dashboard/rewards'
   get 'dashboard/counter'
-  get 'dashboard/customer'
+  get 'dashboard/customers'
   get 'dashboard/settings'
 end
