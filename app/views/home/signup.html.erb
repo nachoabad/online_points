@@ -1,42 +1,26 @@
-
-<section id="main" class="container">
-    <div class="row">
-        <div class="col-4 col-11-narrower">
-            <section class="box special">
-               <span class="icon major fa-bicycle accent2"></span>
-                <h3>Free Plan</h3>
-
-                <ul class="alt">
-                    <li>Feature 1</li>
-                    <li>Feature 2</li>
-                    <li>Feature 3</li>
-                </ul>
-                <%= link_to 'Select', home_registration_path, class:"button"%>
-            </section>
-        </div>
-        <div class="col-4 col-11-narrower">
-            <section class="box special">
-                <span class="icon major fa-plane accent3"></span>
-                <h3>Profesional Editon</h3>
-                <ul class="alt">
-                    <li>Feature 1</li>
-                    <li>Feature 2</li>
-                    <li>Feature 3</li>
-                </ul>
-                <%= link_to 'Select', home_contact_path, class:"button"%>
-            </section>
-        </div>
-        <div class="col-4 col-11-narrower">
-            <section class="box special">
-                <span class="icon major fa-rocket accent4"></span>
-                <h3>Enterprise Edition</h3>
-                <ul class="alt">
-                    <li>Feature 1</li>
-                    <li>Feature 2</li>
-                    <li>Feature 3</li>
-                </ul>
-                <%= link_to 'Select', home_contact_path, class:"button"%>
-            </section>
-        </div>
+<!-- Main -->
+<section id="main" class="container medium">
+    <header>
+        <h2>Onlinepoints Registration</h2>
+    </header>
+    <div class="box">
+        <form method="post" action="">
+            <div class="row gtr-50 gtr-uniform">
+                <div class="col-12">
+                    <input type="email" name="email" id="email" value="" placeholder="Email" />
+                </div>
+                <div class="col-12">
+                    <input type="text" name="password" id="password" value="" placeholder="Password" />
+                </div>
+                <div class="col-12">
+                  <input type="text" name="store" id="store" value="" placeholder="Store Name" />
+                </div>
+                <div class="col-12">
+                    <ul class="actions special">
+                        <li><input type="submit" value="Register" /></li>
+                    </ul>
+                </div>
+            </div>
+        </form>
     </div>
 </section>
