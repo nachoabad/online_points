@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'home/signup'
   get 'home/registration'
   get 'home/login'
+  get 'home/forgot'
   get 'dashboard', to: 'dashboard#index' 
   get 'dashboard/shops'
   get 'dashboard/rewards'

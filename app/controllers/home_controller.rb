@@ -11,6 +11,10 @@ class HomeController < ApplicationController
     @header_class = ""
     @index_page = false
   end
+  def pricing
+    @header_class = ""
+    @index_page = false
+  end
   def signup
     @header_class = ""
     @index_page = false
@@ -20,6 +24,10 @@ class HomeController < ApplicationController
     @index_page = false
   end
   def login
+    @header_class = ""
+    @index_page = false
+  end
+  def forgot
     @header_class = ""
     @index_page = false
   end
